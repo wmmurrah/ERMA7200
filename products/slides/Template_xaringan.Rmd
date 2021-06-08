@@ -1,0 +1,63 @@
+---
+title: "Multilevel Modeling"
+subtitle: "Unit Title"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2020 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+options(htmltools.dir.version = FALSE)
+```
+
+## Outline for this video
+
+1. Introductions
+2. Course mechanics and syllabus
+3. Statistical Software
+4. How to Succeed in this Course
+
+
+---
+
+## Outline of the Course
+
+--
+
+* Introduction to Multilevel Modeling Course
+
+   - Introduction to the Course
+   - Introduction to R and RStudio
+   
+--
+
+* Foundations of Multilevel Modeling
+   - Basics of Multilevel Modeling
+   - Estimation
+   - Special Issues in Multilevel Modeling
+   
+--
+
+* Longitudinal Modeling in a Multilevel framework
+
+--
+
+* Advanced Topics in Multilevel Modeling
+
+
+---
+
+## For Next Week
+
+

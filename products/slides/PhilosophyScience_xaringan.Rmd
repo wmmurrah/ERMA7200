@@ -1,0 +1,110 @@
+---
+title: "Philosophy and Theory in Educational Research"
+subtitle: "Philosophy of Science"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+options(htmltools.dir.version = FALSE)
+```
+
+## Outline for this class
+
+* Branches of Philosophy
+* Nature of Reality
+* Nature of Knowledge
+
+
+---
+
+## Branches of Philosophy
+
+
+--
+.large[
+- **Metaphysics**: reality and being 
+]
+--
+.large[
+- **Epistemology**: knowledge
+]
+--
+.large[
+- **Logic**: rationality and arguments
+]
+--
+.large[
+- **Ethics**: right and wrong, justice
+]
+--
+.large[
+- **Aesthetics**: art and beauty
+]
+--
+.large[
+- **Politics**: Government and Society
+]
+
+---
+
+## Realism and Anit-realism
+
+--
+.large[What is realism?]
+
+--
+
+.large[What is idealism?]
+
+???
+
+**Realism** holds that the physical world exists independent of human thought and perception (p.54).
+
+**Idealism** holds that the physical world does not exist independently of human thought and perception.
+
+**scientific realists** hold that the aim of science is to provide a true description of the world.
+
+**anti-realists** argue that empirical adequacy, and not truth are the aims of science.
+
+
+
+
+---
+
+## Epistemology 
+
+--
+
+.large[ * What is knowledge and how do we acquire knowledge?]
+
+--
+
+.large[* What are the traditional sources of knowledge?]
+
+--
+
+.large[* What is scientific knowledge, and how is it different from the others listed?]
+
+---
+class: center middle inverse
+
+# What is Science? 
+
+
+---
+
+## Science and Pseudo-Science
+

@@ -1,0 +1,48 @@
+---
+title: "Philosophy and Theory in Educational Research"
+subtitle: "The Scientific Method"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+options(htmltools.dir.version = FALSE)
+```
+
+## Outline for this class
+
+
+
+---
+
+class: center
+
+## Model of Scientific Research
+
+```{r, out.width="50%"}
+include_graphics(path = "figures/A-Simple-Model-of-Scientific-Research-in-Psychology.png")
+```
+
+---
+
+## Why should we be skeptical of what we read and hear 
+
+
+---
+
+## What is the best way to read an academic journal article?
+
+
+

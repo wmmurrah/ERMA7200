@@ -1,0 +1,137 @@
+---
+title: "ERMA 7200 Course Schedule"
+author: "William Murrah"
+date: "Summer 2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf', echo = FALSE)
+mon <- as.Date("2021-05-24")
+# fri <- as.Date("2016-01-08")
+
+advdate <- function(obj, adv) {
+  tmon <- obj + 7*(adv-1)
+  tfri <- obj + 4 + 7*(adv-1)
+  tmon <- format(tmon, format="%m/%d")
+  tfri <- format(tfri, format="%m/%d")
+  zadv <- sprintf("%02d", adv)
+  tmp <- paste("Week ",zadv,", Monday "," ", tmon, sep = '')
+  return(tmp)
+}
+
+```
+
+# Class Schedule
+
+Each week below contains a brief note about what will be covered that week.
+The listed Readings should be completed before the class meeting, and assignments should be turned in before the class meeting and by the assignment deadline.
+
+**Important:** class readings are subject to change, contingent on mitigating circumstances and the progress we make as a class.
+Students are encouraged to attend classes and check the course website for updates.
+
+Okasha = Philosophy of Science: a Very Short Introduction  
+RMIP = [Research Methods in Psychology](https://kpu.pressbooks.pub/psychmethods4e/)
+
+
+## `r advdate(mon, 1)`: Introduction 
+* Introduction to the course
+* review of the syllabus and Canvas page
+
+## `r advdate(mon, 2)`: Memorial Day **NO CLASS**
+
+##  `r advdate(mon, 3)`: Philosophy of Science and the Scientific Method
+
+### Readings
+
+* Okasha Chapters 1-4
+* RMIP Chapters I (sections 1-4), II
+
+### Assigments
+
+Homework 1 assigned
+
+
+##  `r advdate(mon, 4)`: Research Ethics and Measurement
+
+
+### Readings
+
+* RMIP Chapters III, IV
+
+### Assignments
+
+* Homework 1 Due
+
+##  `r advdate(mon, 5)`: Experimental Research Designs
+
+### Readings
+
+* RMIP Chapters V, IX
+* Library Resources Link on Course Canvas Page
+
+### Assignments
+
+
+
+##  `r advdate(mon, 6)`: Non-Experimental Research
+
+### Readings
+
+* RMIP Chapters VI, VII, VIII
+
+### Assignments
+
+* Quiz 1 Assigned (Due in 2 weeks)
+* Homework 2 Due
+
+##  `r advdate(mon, 7)`: 4th of July Holiday **NO CLASS**
+
+
+### Readings
+
+
+### Assignments
+
+* Quiz 1 Due
+
+##  `r advdate(mon, 8)`: Qualitative and Mixed Methods Designs
+
+
+
+### Readings
+
+* Okasha Chapters 5 and 6
+
+### Assignments
+
+* Homework 3 Due
+
+##  `r advdate(mon, 9)`:  Interpreting Results
+
+
+### Readings
+
+* RMIP Chapters XI, XII, XIII
+
+### Assignments
+
+
+
+## `r advdate(mon, 10)`: Computational Methods
+
+
+### Readings
+
+* Okasha Chapter 7
+
+### Assignments
+
+* Final Project Due
+* Quiz 2 Assigned (due next week)
+
+## `r advdate(mon, 11)`: Finals week
+
+### Assignments:
+
+* Quiz 2 Due Wednesday August 4th

@@ -1,0 +1,16 @@
+---
+title: "Foundations of Multilevel Modeling"
+subtitle: "Basic Concepts
+author: "William Murrah"
+date: "Fall 2020"
+output:
+  ioslides_presentation:
+    css: ../../../style/slides.css
+    logo: ../../../figures/au.png
+    template: quarterly-report.html 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
