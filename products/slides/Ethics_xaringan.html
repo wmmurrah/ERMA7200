@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Introduction to Research Methods</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="William Murrah" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link rel="stylesheet" href="au-xaringan.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Introduction to Research Methods
+## Research Ethics
+### William Murrah
+### Auburn University
+### Summer 2021 (updated: 2021-06-14)
+
+---
+
+
+
+
+
+## Outline for this video
+
+
+
+
+---
+
+## Do you think Facebook acted unethically?
+
+
+"Facebook is facing criticism after it emerged it had conducted a psychology experiment on nearly 700,000 users without their knowledge.} The test saw Facebook manipulate news feeds to control which emotional expressions the users were exposed to. The research was done in collaboration with two US universities to gauge if ‘exposure to emotions led people to change their own posting behaviors’. 
+Facebook said there was ‘no unnecessary collection of people's data’. ‘None of the data used was associated with a specific person's Facebook account,’ the social networking giant added.
+Cornell University and the University of California at San Francisco were involved in the study.
+But some have criticized the way the research was conducted and raised concerns over the impact such studies could have.
+‘Let's call the Facebook experiment what it is: a symptom of a much wider failure to think about ethics, power and consent on platforms,’ Kate Crawford posted on Twitter.” 
+--http://www.bbc.com/news/technology-28051930
+
+---
+
+## Critical issues of ethics in research
+
+* Researchers have ethical obligations to protect the rights and dignity of participants
+     + Also they are responsible for ethical conduct of any research assistants
+     
+* Research must be approved by an **Institutional Review Board (IRB)** that evaluates compliance with ethical standards
+     + Board comprised of researchers and community members
+     
+---
+
+## Principles of Human Subjects Research
+
+The Belmont Report, Part I
+
+https://www.youtube.com/watch?v=86zWBjDaXPk
+
+The Belmont Report, Part II
+
+https://www.youtube.com/watch?v=cIafASIIU70
+
+* Take notes:
+     + what are the major considerations in human subjects? 
+     + Define the terms in your own words.
+---
+
+## Human Subjects Principles
+
+\pause
+
+* Respect for persons: 
+* Beneficence: 
+* Justice:
+
+---
+
+## Crucial Elements of Informed Consent
+
+* Information
+     + purpose
+     + procedures
+     + future uses
+* Risks/Benefits
+     + physical
+     + mental
+     + financial
+* Autonomy
+     + voluntary participation
+     + free to withdraw at any time
+
+---
+
+## Other Key Terms
+
+* **Vulnerable populations** = children, pregnant women, cognitively impaired individuals, prison inmates, AU students (?)
+* **Deception** = obscuring true procedure and purpose of study from participants. 
+* **Debriefing** = Following study, participants must be fully informed of any deception, any potentially negative effects must be corrected, and participants must be given contact information if any harmful effects arise later
+ 
+---
+
+## Another Key Ethics Issue
+* **Plagiarism** = Use of someone else’s ideas or words without proper credit
+     + When using someone’s exact words, always use quotation marks and cite the source
+     + When using someone’s idea or paraphrased words, cite the source
+
+---
+
+## Revisiting The Facebook Study
+
+* Which human subjects principles apply?
+* Why might they not apply in this case?
+* Should they apply?
+
+* Resource: Did Facebook and PNAS violate human research protections in an unethical experiment? (http://www.sciencebasedmedicine.org/did-facebook-and-pnas-violate-human-research-protections-in-an-unethical-experiment/)
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

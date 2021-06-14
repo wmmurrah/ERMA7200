@@ -1,0 +1,115 @@
+---
+title: "Introduction to Research Methods"
+subtitle: "Research Ethics"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+options(htmltools.dir.version = FALSE)
+```
+
+## Outline for this video
+
+
+
+
+---
+
+## Do you think Facebook acted unethically?
+
+
+"Facebook is facing criticism after it emerged it had conducted a psychology experiment on nearly 700,000 users without their knowledge.} The test saw Facebook manipulate news feeds to control which emotional expressions the users were exposed to. The research was done in collaboration with two US universities to gauge if ‘exposure to emotions led people to change their own posting behaviors’. 
+Facebook said there was ‘no unnecessary collection of people's data’. ‘None of the data used was associated with a specific person's Facebook account,’ the social networking giant added.
+Cornell University and the University of California at San Francisco were involved in the study.
+But some have criticized the way the research was conducted and raised concerns over the impact such studies could have.
+‘Let's call the Facebook experiment what it is: a symptom of a much wider failure to think about ethics, power and consent on platforms,’ Kate Crawford posted on Twitter.” 
+--http://www.bbc.com/news/technology-28051930
+
+---
+
+## Critical issues of ethics in research
+
+* Researchers have ethical obligations to protect the rights and dignity of participants
+     + Also they are responsible for ethical conduct of any research assistants
+     
+* Research must be approved by an **Institutional Review Board (IRB)** that evaluates compliance with ethical standards
+     + Board comprised of researchers and community members
+     
+---
+
+## Principles of Human Subjects Research
+
+The Belmont Report, Part I
+
+https://www.youtube.com/watch?v=86zWBjDaXPk
+
+The Belmont Report, Part II
+
+https://www.youtube.com/watch?v=cIafASIIU70
+
+* Take notes:
+     + what are the major considerations in human subjects? 
+     + Define the terms in your own words.
+---
+
+## Human Subjects Principles
+
+\pause
+
+* Respect for persons: 
+* Beneficence: 
+* Justice:
+
+---
+
+## Crucial Elements of Informed Consent
+
+* Information
+     + purpose
+     + procedures
+     + future uses
+* Risks/Benefits
+     + physical
+     + mental
+     + financial
+* Autonomy
+     + voluntary participation
+     + free to withdraw at any time
+
+---
+
+## Other Key Terms
+
+* **Vulnerable populations** = children, pregnant women, cognitively impaired individuals, prison inmates, AU students (?)
+* **Deception** = obscuring true procedure and purpose of study from participants. 
+* **Debriefing** = Following study, participants must be fully informed of any deception, any potentially negative effects must be corrected, and participants must be given contact information if any harmful effects arise later
+ 
+---
+
+## Another Key Ethics Issue
+* **Plagiarism** = Use of someone else’s ideas or words without proper credit
+     + When using someone’s exact words, always use quotation marks and cite the source
+     + When using someone’s idea or paraphrased words, cite the source
+
+---
+
+## Revisiting The Facebook Study
+
+* Which human subjects principles apply?
+* Why might they not apply in this case?
+* Should they apply?
+
+* Resource: Did Facebook and PNAS violate human research protections in an unethical experiment? (http://www.sciencebasedmedicine.org/did-facebook-and-pnas-violate-human-research-protections-in-an-unethical-experiment/)
