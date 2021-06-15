@@ -30,13 +30,15 @@ options(htmltools.dir.version = FALSE)
 
 ## Do you think Facebook acted unethically?
 
+.large[
 
-"Facebook is facing criticism after it emerged it had conducted a psychology experiment on nearly 700,000 users without their knowledge.} The test saw Facebook manipulate news feeds to control which emotional expressions the users were exposed to. The research was done in collaboration with two US universities to gauge if ‘exposure to emotions led people to change their own posting behaviors’. 
+"**Facebook is facing criticism after it emerged it had conducted a psychology experiment on nearly 700,000 users without their knowledge**. The test saw Facebook manipulate news feeds to control which emotional expressions the users were exposed to. The research was done in collaboration with two US universities to gauge if ‘exposure to emotions led people to change their own posting behaviors’. 
 Facebook said there was ‘no unnecessary collection of people's data’. ‘None of the data used was associated with a specific person's Facebook account,’ the social networking giant added.
 Cornell University and the University of California at San Francisco were involved in the study.
 But some have criticized the way the research was conducted and raised concerns over the impact such studies could have.
 ‘Let's call the Facebook experiment what it is: a symptom of a much wider failure to think about ethics, power and consent on platforms,’ Kate Crawford posted on Twitter.” 
 --http://www.bbc.com/news/technology-28051930
+]
 
 ---
 
