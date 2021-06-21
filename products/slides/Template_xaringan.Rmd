@@ -1,9 +1,9 @@
 ---
-title: "Multilevel Modeling"
+title: "Introduction to Educational Research"
 subtitle: "Unit Title"
 author: "William Murrah"
 institute: "Auburn University"
-date: "Summer 2020 (updated: `r Sys.Date()`)"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: "au-xaringan.css"
