@@ -1,0 +1,270 @@
+---
+title: "Introduction to Educational Research"
+subtitle: "Non-Experimental and Quasi-Experimental Research"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE, comment = NULL)
+options(htmltools.dir.version = FALSE)
+library(psych)
+library(modelsummary)
+```
+
+
+---
+
+## Non-Experimental Research
+
+### Experiment
+
+.large[
+**Experiment** - type of empirical research in which the independent variable is manipulated, to determine the impact of this independent variable on the dependent variable. There is also a comparison group who does not get the manipulation.
+]
+
+--
+
+.large[
+**Non-experimental research** lacks manipulation of an independent variable. Instead, variables are measured as they naturally occur (in the lab or real world). There is also generally no comparison group for the "treatment" or focal variable.
+]
+
+
+---
+
+## When Should We Use Non-Experimental Research?
+
+--
+* Causality in not the focus of the study
+    - Establishing associations
+    - External validity is more important
+
+
+* Manipulation of Independent variable not possible
+    - Some variables can't be manipulated (e.g., gender, race, blood type)
+    - Some variable it would not be ethical to manipulate (smoking and cancer, maternal neglect, chronic discrimination)
+    
+
+* True experiment is not feasible or sensible
+   - "unlimited supply of money would solve inequality"
+   - proposed causal relation is not plausible
+    
+    
+---
+
+## Types of Non-Experimental Research
+
+* Correlational Research - focuses on statistical relations
+* Observational Research - observing behavior in natural or lab setting
+* Cross-sectional Research - Comparing groups at single time point, or different groups at different time points
+* Longitudinal Research - one group at multiple time points
+* Cross-sequential Research - Different cohorts multiple time points for shorter time windows
+
+
+---
+
+## Internal vs. External Validity
+
+Which type of validity is more likely to be emphasized with non-experimental research? Why?
+
+
+
+---
+
+## Correlational Research
+
+--
+* What is a correlation?
+
+--
+* What is the range of values a correlation can take?
+
+--
+* If two variables are not linearly related at all, what would you expect the correlation between them to be?
+
+---
+
+## What is the correlation between these two variables?
+
+```{r}
+
+n <- 250
+set.seed(1234)
+math <- rnorm(n, 40, 5)
+read <- 0 + .85*math + rnorm(n, 0, 5)
+algebra <- 0 + .95*math + rnorm(n, 0, 2)
+behavior_probs <- 0 - .6*math + rnorm(n, 0, 10)
+shoesize <- rnorm(n, 8, 2)
+
+plot(math ~ read)
+
+```
+
+??
+Cor = .63
+---
+
+## What about these?
+
+```{r}
+plot(math ~ algebra)
+```
+???
+
+Cor = .93
+
+---
+
+## What is the correlation?
+
+```{r}
+plot(math ~ behavior_probs)
+```
+??
+Cor = -.24
+
+---
+
+## ??
+
+```{r}
+plot(math ~ shoesize)
+```
+??
+Cor = .13
+---
+
+---
+
+## What is going on here?
+
+```{r}
+time <- seq(-5, 12, by =.001)
+math <- 130*(exp(-exp(-.6*(time -1.26)))) 
+set.seed(1234)
+idx <- sample(1:length(math), size = 250, replace = FALSE)
+plot(math ~ time, type = "l", xlim = c(-5, 12), ylim = c(0, 135),
+     xlab = "Grade")
+points(x = time[idx], y = math[idx] + rnorm(length(idx), 0, 12))
+```
+
+---
+
+## Correlation does not imply correlation
+
+http://www.tylervigen.com/spurious-correlations
+
+---
+
+## Let's Look at a Hypothetical Example
+---
+
+
+### Are Private Schools Better at Preparing Students for College?
+
+.pull-left[
+```{r, results='asis'}
+set.seed(1234)
+nobs <- 500
+SES <- rnorm(n = nobs, mean = 100, sd = 10)
+math <- 50 + .6*SES + rnorm(nobs, 0, 10)
+mathpub <- math[1:250]
+mathpri <- math[251:500]
+SESpub <- SES[1:250]
+SESpri <- SES[251:500]
+idx <- SESpri > 110
+
+dat <- data.frame(
+  math = c(math[1:250], mathpri[idx]),
+  SES = c(SESpub, SESpri[idx]),
+  schooltype = factor(c(rep("public", 250), rep("private", sum(idx))))
+)
+
+dat$schooltype <- relevel(dat$schooltype, ref = "public")
+
+psych::pairs.panels(dat)
+```
+]
+
+.pull-right[
+```{r, warning=FALSE}
+datasummary_balance(math + SES ~ schooltype, dat)
+
+```
+
+]
+---
+
+## Regressions of Math on SES and School Type
+
+```{r, results='asis'}
+modSES <- lm(math ~ SES, dat)
+modscty <- lm(math ~ schooltype, dat)
+modfull <- lm(math ~ SES + schooltype, dat)
+texreg::htmlreg(list(modSES, modscty, modfull))
+```
+
+---
+class: inverse center middle
+
+# Quasi-Experimental Research
+
+---
+
+## What is Quasi-Experimental Research?
+
+**Quasi-Experimental Research** - either 
+
+1. the *independent variable is manipulated* or 
+2. *two or more groups are compared*, 
+    
+but usually not both.
+
+There is no random assignment (which would imply both of the above).
+
+The general goals is to have two or more groups that are as similar as possible on all characteristics, except the variable of interest ("treatment").
+
+---
+
+## Designs with Manipulation but Without Group Comparison
+
+1. One group posttest only design
+
+2. One group pretest-posttest design
+
+3. Interrupted time-series design (often 'natural experiments')
+
+4. Switching designs
+
+
+---
+
+## Designs without Random Assignment but with Group Comparison
+
+1. Poststest only non-equivalent group design
+2. Pretest-posttest non-equivalent group design
+3. Interrupted time-series with non-equivalent group design
+
+
+---
+
+## For Next Week
+
+Complete quiz 1 covering Philosophy of Science chapters, and RMIP chapters I - IV 
+
+Read Lareau1987
+
+Bring article for review
+
+

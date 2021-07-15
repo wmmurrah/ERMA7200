@@ -73,8 +73,14 @@ Homework 1 assigned
 ### Assignments
 
 
+## `r advdate(mon, 6)`: Juneteenth Holiday **NO CLASS**
 
-##  `r advdate(mon, 6)`: Non-Experimental Research
+
+##  `r advdate(mon, 7)`: 4th of July Holiday **NO CLASS**
+
+
+
+##  `r advdate(mon, 8)`: Non-Experimental Research
 
 ### Readings
 
@@ -82,48 +88,28 @@ Homework 1 assigned
 
 ### Assignments
 
-* Quiz 1 Assigned (Due in 2 weeks)
-* Homework 2 Due
+* Quiz 1 Assigned (Due next week)
 
-##  `r advdate(mon, 7)`: 4th of July Holiday **NO CLASS**
 
+##  `r advdate(mon, 9)`: Qualitative and Mixed Methods Designs
 
 ### Readings
+
+* Lareau 1987
+* TBA
 
 
 ### Assignments
 
 * Quiz 1 Due
 
-##  `r advdate(mon, 8)`: Qualitative and Mixed Methods Designs
-
-
-
-### Readings
-
-* Okasha Chapters 5 and 6
-
-### Assignments
-
-* Homework 3 Due
-
-##  `r advdate(mon, 9)`:  Interpreting Results
+##  `r advdate(mon, 10)`:  Interpreting Results and Computational Methods
 
 
 ### Readings
 
 * RMIP Chapters XI, XII, XIII
 
-### Assignments
-
-
-
-## `r advdate(mon, 10)`: Computational Methods
-
-
-### Readings
-
-* Okasha Chapter 7
 
 ### Assignments
 
