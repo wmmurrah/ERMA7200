@@ -1,0 +1,116 @@
+---
+title: "Quiz 1"
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Philopophy of Science
+
+### question 1
+ Which of the following statements is **NOT** consistent with the principles of science discussed in class?
+
+* A. Science is free from assumptions
+* B. Scientists pose testable questions
+* C. Science is self-correcting
+* D. Science depends on public reporting of results
+
+### question 2
+
+A researcher has a sample of student from her class that volunteered to be in her study. She flips a coin for each student in the sample, and if the coin lands on heads, she places the student in one group, if it lands on tails she puts the student on the other group.
+This process of creating groups from the sample is a an example of which of the following:
+
+A. Random sampling
+B. Random assignment
+C. Convenience sampling
+D. Convenience assignment
+
+### question 3
+
+Which of the following is NOT a characteristic of a good scientific hypothesis?
+
+A. generalizable
+B. testable
+C. falsifiable
+D. logical
+
+
+### question 4
+Which of the following statements is TRUE 
+
+A. Science is a method of proving theories
+B. Well trained scientists can trust their instincts when interpreting results.
+C. Science is self-correcting
+D. Students learn science better when the teaching style matches their learning style
+
+## Reasearch Ethics and Measurement
+
+### question 5
+  A student is gathering data on the driving experiences of other college students.  A **variable name** and a description of each variable is presented below.  Which of the variables are numerical?
+
+   Variable name | Description
+   --------------|-------------
+   **car**       | 1 = compact, 2 = standard size, 3 = mini van, 4 = SUV, and 5 = truck
+   **color**     | red, blue, green, black, white
+   **daysDrive** |  number of days per week the student drives
+   **gasMonth**  | the amount of money the student spends on gas per month
+   
+   
+* A. daysDrive 
+
+* B. car, daysDrive 
+
+* C. car, daysDrive, gasMonth 
+
+* D. DaysDrive, gasMonth 
+
+### question 6
+Operationalizing variables simply means that they
+
+* A. are categorical
+* B. are well defined and measurable
+* C. can be manipulated
+* D. are valid and reliable
+
+### question 7
+
+Which of the following is an example on the ratio scale of measurement
+
+A. Temperature in Fahrenheit
+B. IQ
+C. Height
+D. Rank order for finishing a marathon
+
+
+### question 8
+
+ An ideal sample for a study aimed at obtaining generalizable results  will have all but which of the following characteristics?
+ 
+ * A. Of a reasonable sample size for the study design and expected effect
+ * B. Each member of the population will have an equal probability of being sampled
+ * C. The characteristics of the sample will match those of the population
+ * D. Members of the sample will be randomly assigned to the treatment and control groups
+ 
+ 
+### question 9
+
+Which of the following statements is TRUE?
+
+A. Random assignment helps promote generalizability
+B. A measure must be valid to be reliable
+C. If a measure is reliable it measures what is is supposed to measure
+D. External validity in enhanced by random sampling
+
+### question 10
+"All men are mortals, Harold is a man. Therefore, Harold is a mortal" is an example of which type of inference?
+
+A. Deduction
+B. Induction
+C. Adduction
+D. Abduction
+
+
