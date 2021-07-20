@@ -1,0 +1,74 @@
+---
+title: "QMER Summer Strategic Summit"
+subtitle: "Quadrant 2: Data and Computation"
+author: "William Murrah"
+date: "5/13/2021"
+output:
+  ioslides_presentation:
+    css: ~/Dropbox/templates/style/qmerslides.css
+    logo: '~/Box/QMER Group/Admin/Logos/Header.png'
+    template: quarterly-report.html
+    wide: true
+  powerpoint_presentation: default    
+---
+
+## 
+
+>     "We are drowning in information but starved for knowledge" 
+>                                                            - John Naisbitt
+
+## Two  Crises in Science
+
+> * Replication Crisis: Why does much of the work in SBE sciences not replicate?
+>     + Procedural training in statistics instead of statistical reasoning
+>     + Over-reliance on NHST
+>     + Lack of strong theory
+
+> * Qualitative Methods: "Credibility Crisis": 
+>    + How to deal with Bias
+>    + Scope/Generalizability
+>    + Empirical vs. Advocacy/Sociopolitical ("is" vs. "ought")
+
+> * Much preoccupation with Qaunt vs. Qual debate
+
+## Quant vs. Qual: The Wrong Problem
+
+> * The problem is not methodological, but is "user error"
+> * We tend to use the wrong methods, whether quantitative or qualitative,  to answer important questions.
+> * Why?
+>    + Most applied researchers only know basic methods
+>    + Most applied researchers don't do experiments so don't **think** causally
+>    + **SBE researchers haven't fully embraced complexity**
+
+> * Identifying problems -> Solving problems
+>    + This misses a critical step: Understanding the causes of the problem
+
+## What is Complexity?
+
+> * Complex Systems:
+>    + nonlinear
+>    + self-organizing
+>    + emergence
+>    + hierarchical
+>    + heterogeneous agents
+
+## Many (Most?) Important Problems are Complex
+
+> * The problems that face society involve complex systems
+>     + Generally: global warming, pandemics, etc.
+>     + Education: disparities, dropout, STEM participation
+
+> * Complex problems have complex causes (nonlinear multi-causal, hierarchical) 
+
+> * ... and, therefore, require complex solutions
+
+## A QMER Broad Aim
+
+>     "We are drowning in information but starved for knowledge" 
+>                                                            - John Naisbitt
+
+
+> * To provide the **Resources and Skills** foundational to  **Computation, Theory, and Experimentation** needed to turn **data and theory** into **knowledge**.
+
+
+## Resources
