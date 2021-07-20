@@ -1,0 +1,119 @@
+---
+title: "Introduction to Educational Research"
+subtitle: "Qualitative Research"
+author: "William Murrah"
+institute: "Auburn University"
+date: "Summer 2021 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    css: "au-xaringan.css"
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      ratio: '16:9'
+---
+
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+options(htmltools.dir.version = FALSE)
+```
+
+## Outline for this class
+
+1. Review Quiz
+2. Qualitative Research Methods
+3. Complex Systems and Computational Methods
+4. Article Review Resources and Working Groups
+
+
+---
+
+## What is Qualitative Research?
+
+* Originated in disciplines focused on social context, such as anthropology and sociology
+
+* Useful in understanding people's experiences
+
+* Useful for **generating** more than answering research questions
+
+
+---
+
+## Comparing Qualitative and Quantitative Research
+
+Qualitative	| Quantitative
+------------|---------------
+1. In-depth information about relatively few people | 1. Less depth information with larger samples
+2. Conclusions are based on interpretations drawn by the investigator | 2. Conclusions are based on statistical analyses
+3. Global and exploratory | 3. Specific and focused”
+
+---
+
+## What Data are collected in Qualitative Research?
+
+* Interview
+* Focus groups
+* Observations
+
+---
+
+## Additional Points
+
+Qualitative Research is not an aversion to numbers.
+Note there were tables and quantitative comparisons in Lareau's paper:
+
+    "Virtually all Prescott parents attended the parent-teacher 
+    conferences in the fall and spring, but only 60 percent of 
+    Colton parents attended" (p. 77).
+
+* Qualitative research should be about giving voice to the research participants (subjective) experience, not the researches. Just as in quantitative researcher, the researcher aims to be as objective as possible. 
+* Qualitative research is not about capturing the researchers subjective experiences, nor projecting them onto the participants.
+* That would be pseudoscience. 
+
+
+
+---
+
+## Qualitative Research and Postmodernism are not the same thing
+
+[The Sokal Affair](https://en.wikipedia.org/wiki/Sokal_affair#cite_note-9)
+
+    "The results of my little experiment demonstrate, at the very least, that some
+    fashionable sectors of the American academic Left have been getting intellectually 
+    lazy. The editors of Social Text liked my article because they liked its conclusion: 
+    that "the content and methodology of postmodern science provide powerful intellectual 
+    support for the progressive political project" [sec. 6]. They apparently felt no need to
+    analyze the quality of the evidence, the cogency of the arguments, or even the 
+    relevance of the arguments to the purported conclusion."
+                                            --- Sokal, Alan. "Revelation: A Physicist
+                                            Experiments With Cultural Studies". 
+                                            In Editors of Lingua Franca (2000),
+                                            pp. 49–54.
+
+
+---
+
+## A Personal Distintion: Empirical  vs. Non-Empirical Research
+
+* Are results and conclusions based on data from outside the researcher?
+* Is the researcher doing all they can to  be as objective as possible (even if studying the subjective experience of others)?
+* Is the researcher separating **IS** and **OUGHT**?
+* Is there evidence that would change the researchers mind?
+
+
+
+---
+
+## Quant vs. Qual debate
+---
+
+## A Couple of ways to move
+
+---
+
+## For Next Week
+
+
