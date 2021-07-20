@@ -1,0 +1,46 @@
+---
+title: "Article Review Rubric"
+author: "William Murrah"
+date: "7/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Introduction
+
+1. What is the big problem the author(s) are trying to address?
+2. Have they given a balanced review of the literature on this problem/
+3. What are the specific aims and/or research questions of this study?
+
+## Methods
+
+1. Who are the participants (describe)?
+2. What were the study methodology?
+3. What were the sampling procecures?
+4. Sample size/power/precision: is the sample size justified within the study context?
+5. What measures are used?
+6. How was data collected?
+7. What was the quality of the measures?
+8. What is the study design?
+9. What is the analytic stragegy?
+
+## Results
+
+1. Participant flow: were their changes in the number of participants that started the study and those that were analyzed? How was this handled?
+2. Statistics and Analysis: describe how the data were analyzed, including issues like missing data, evaluation of assumptions, and statistical tests used. Do the best you can here!
+
+## Discussion
+
+1. Were the original hypotheses supported or what was the answer to the questions?
+2. How did these results compare to prior research?
+3. What were the author(s) interpretations?
+4. What generalizations were made and where they justified?
+5. What are the implications of this study for the big picture problem posed in the introduction?
+
+APA JARS link:
+
+https://apastyle.apa.org/jars
