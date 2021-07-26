@@ -1,0 +1,137 @@
+---
+title: "Quiz 1"
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Nonexperimental Research Designs
+
+### question 1
+
+Look at the scatter plot of variables \texttt{x} and \texttt{y}. Which of the following statements is **true** about the association between these variables?
+
+[insert figure of corrplot]
+
+A. There is no evidence of a correlation between read and math B. The correlation between read and math is very close to 1.00. C. There is a moderately strong positive correlation between read and math. D. There is a moderately strong negative correlation between read and math.
+
+### question 2
+
+Which of the following is **true** of measures of central tendency?
+
+-   A. The mean is reliable and stable for skewed distributions
+-   B. The median allows for more advanced inferential statistics
+-   C. The median is usually best for normal distributions
+-   D. The median is preferred over the mean when there are extreme scores in the distribution
+
+## Experimental Research Designs
+
+### question 3
+
+A researcher wants to determine if a new treatment is effective for reducing Ebola related fever. What type of study would potentially provide the strongest evidence that the treatment does indeed cause improvement in Ebola patients?
+
+A. Randomly assign Ebola patients to one of two groups, either the treatment or placebo group, and then compare the fever of the two groups. B. Identify Ebola patients who have received the new treatment and those who did not, and then compare the fever of those two groups. C. Identify clusters of villages and then stratify them by gender and compare the fevers of male and female groups. D. Both studies (a) and (b) are equally valid methods to establish that the treatment does indeed cause improvement with regards to fever in Ebola patients.
+
+# Short Answer
+
+Read the abstract below and answer the following questions.
+
+Smoking cessation interventions for cardiac patients need improvement given their weak effects on long-term abstinence rates and low compliance by nurses to implementation. This study tested the effectiveness of a smoking cessation intervention against usual care in cardiac patients. A study was conducted from 2009 to 2012 for which Dutch cardiac patient smokers were randomly assigned to usual care (UC; n = 245) or face-to-face counseling (FC; n = 157). The two groups were comparable at baseline and had smoked on average 21 cigarettes a day before hospitalization. After six months, interviews occurred to assess self-reported smoking status, measured by the number of cigarettes smoked in the previous month. Patients in the FC group had significantly higher smoking abstinence rates than patients in the UC group (p $\leq$ 0.05 at all times). These findings suggest that intensive counseling is effective in increasing short-term abstinence rates.
+
+### Question 1:
+
+1.  What is the dependent variable? A. Group membership (UC vs. FC) B. Counseling effectiveness C. number of cigarettes smoked at end of study D. Group membership (Cardiac patient vs. control)
+
+2.  What is the independent variable? A. Group membership (UC vs. FC) B. Counseling effectiveness C. number of cigarettes smoked at end of study D. Group membership (Cardiac patient vs. control)
+
+3.  Is there a manipulated variable in this scenario, and if so which one? A. No manipulated variable B. The manipulated variable is Group membership (UC vs. FC) C. The manipulated variable is the number of cigarettes smoked at the end of the study D. Both variables in B and C are manipulated
+
+4.  Which type of research design describes this study A. Experimental B. Non-experimental C. Quasi-experimental D. Observational
+
+5.  What type of validity is this study better suited to promote? A. External Validity B. Internal Validity C. Experimental Validity D. Quasi-experimental Validity
+
+### Question 2:
+
+A small class gets the following scores on a test (50, 10, 30, 20, 50, 45, 40, 50, 45, 60).
+
+-   
+
+    1.  What is the mean score on the test?
+
+-   
+
+    2.  What is the mode score on the test?
+
+-   
+
+    3.  What is range of scores on the test?
+
+-   
+
+    4.  What is the median score on the test?
+
+### Question 3.
+
+A colleague asks you for advice about a study she wants to conduct. She is interested in the relation between gender and income among employees in the United States. She is considering using an existing longitudinal data set that follows 12,000 U.S. citizens from middle school into late adulthood. Data were collected several times throughout the study period. Which of the following statements would **NOT** be good advice for your colleague to consider? A. You should consider whether the sample is nationally representative, to ensure the results are generalizable to the population of interest. B. You should consider conducting an true experiment by randomly assigning participants to different levels of the independent variable. C. You should check that the data set has measured other variables thought to be related to gender and income, that can be used as covariates. D. You should check whether some form of random sampling was used to obtain the sample, so the sample characteristics are similar to those of the population.
+
+### Question 4.
+
+A variable is created that is coded 1 if the person has been diagnosed with a personality disorder and 0 otherwise. Which of the following does NOT accurately describe this variable A. This is categorical variable\
+B. This is nominal variable\
+C. This is dichotomous variable\
+D. This is an ratio variable
+
+### Question 5.
+
+Read the abstract below and answer the following questions.
+
+The purpose of this study was to determine if education level is related to vocabulary skills. The sample consisted of over 21,000 participants in the General Social Science Survey administered from 1972 to 2004. Vocabulary was measured using the number of correct words identified on a 50 word vocabulary test. Scores ranged from 0 to 50, and indicate the number of words correct. Education was measured as the number of years attending formal schooling. It was hypothesized that the level of education would be predictive of vocabulary test scores, with those participants with more schooling scoring higher on the vocabulary test.
+
+1.  What is the predictor/independent variable? A. Education level\
+    B. Vocabulary skill\
+    C. Year of survey (1972 - 2004)\
+    D. Family income
+
+2.  What is the outcome/dependent variable? A. Education level\
+    B. Vocabulary skill\
+    C. Year of survey (1972 - 2004)\
+    D. Family income
+
+3.  Is there a manipulated variable in this scenario, and if so which one is it?\
+    A. No manipulated variable\
+    B. The manipulated variable is Education level\
+    C. The manipulated variable is Vocabulary skill\
+    D. Both variables in B and C are manipulated
+
+4.  Which type of research design describes this study
+
+    A. Experimental\
+    B. Non-experimental\
+    C. Quasi-experimental\
+    D. Observational
+
+5.  What type of validity is this study better suited to promote?
+
+    A. External Validity\
+    B. Internal Validity\
+    C. Experimental Validity\
+    D. Quasi-experimental Validity
+
+### Question 6
+
+Which of the following is **NOT** one of the three pillars of science?
+
+A. Experimentation\
+B. Advocacy\
+C. Theory\
+D. Computation/Complexity
+
+### Question 7
+
+Which of the following statements is **NOT** a good description of qualitative research based on our discussion in class?
+
+A. Originated in disciplines focused on social context, such as anthropology and sociology\
+B. Useful in understanding people's experiences C. Has strong external validity D. Useful for generating more than answering research questions
